@@ -5,7 +5,6 @@ import IconButton from "@material-ui/core/IconButton";
 import SearchOutlined from "@material-ui/icons/SearchOutlined";
 import DeleteIcon from "@material-ui/icons/Delete";
 import InsertEmoticonIcon from "@material-ui/icons/InsertEmoticon";
-import MicIcon from "@material-ui/icons/Mic";
 import SendIcon from "@material-ui/icons/Send";
 import { useParams, useHistory } from "react-router-dom";
 import db from "./firebase";
@@ -126,9 +125,6 @@ function Chat() {
         </form>
         <IconButton disabled={!input} onClick={sendMessage}>
           <SendIcon style={{ color: "#d4d5d7" }} />
-        </IconButton>
-        <IconButton>
-          <MicIcon style={{ color: "#d4d5d7" }} />
         </IconButton>
       </div>
     </div>
