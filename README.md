@@ -2,14 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-- This project was made following a tutorial video and then updates were made to the code to customize several features
-- Cloud Firestore is used for backend database
-- Using Firebase to allow login using Google accounts
-- Changed app to Dark mode
-- Added button to create new chat room
-- Added button to log out
+> This project was made following a tutorial video and then updates were made to the code to customize several features
 
-### Todo
+## Technologies Used
+
+* React
+* Recoil (for state management)
+* Material-UI (core and icons)
+* Firebase for hosting and user authentication using Google Accounts
+* Firestore for database
+
+
+
+## How to use
+
+Visit [WhatsAppClone](https://whats-140ee.web.app) to see a working example
+
+
+
+## Todo
 
 - [ ] Delete button removes the chat room but doesn't update to next available chat room
 - [ ] Search feature for chat room names
