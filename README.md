@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 - This project was made following a tutorial video and then updates were made to the code to customize several features
 - Cloud Firestore is used for backend database
 - Using Firebase to allow login using Google accounts
-- Added Dark Mode
+- Changed app to Dark mode
 - Added button to create new chat room
 - Added button to log out
 
